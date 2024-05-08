@@ -8,7 +8,9 @@
         Title="NetDetect" Height="421" Width="384">
     <Grid>
         <StackPanel HorizontalAlignment="Center" Height="266" Margin="0,47,0,0" VerticalAlignment="Top" Width="274">
+            <Label Content="Początkowy adres IP:"/>
             <TextBox x:Name="tbxStartIP" TextWrapping="Wrap" Text="192.168.0.1" VerticalAlignment="Top"/>
+            <Label Content="Końcowy adres IP"/>
             <TextBox x:Name="tbxEndIP"  TextWrapping="Wrap" Text="192.168.0.1" VerticalAlignment="Top"/>
             <Button x:Name="btnScan" Content="Scan" VerticalAlignment="Top" Click="btnScan_Click"/>
             <ListBox x:Name="lbx1" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="176"/>
